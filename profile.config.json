@@ -1,0 +1,282 @@
+{
+  "username": "Praneet-R-S",
+  "name": "Praneet R.S",
+  "greeting": "HELLO, I'M",
+  "status": "OPEN TO AI/ML & FULL-STACK ROLES",
+  "roles": ["AI/ML Engineer", "Full-Stack Developer", "Data Scientist", "Multi-Agent Systems Builder"],
+  "specs": [
+    ["BASED IN", "Chennai, India"],
+    ["STUDYING", "B.Tech CSE, SRM University"],
+    ["CURRENTLY", "AI/ML Intern @ Flexidigit"]
+  ],
+  "hide_languages": [],
+  "links": { "linkedin": "https://www.linkedin.com/in/praneetrepakula", "email": "praneetrepakula@gmail.com" },
+  "highlights": [
+    { "icon": "trophy", "value": "Winner", "label": "HACKNOVA 2026", "sub": "+ Runner-up at Nexathon 2026" },
+    { "icon": "scroll", "value": "Patent", "label": "PUBLISHED 2026", "sub": "Indian Patent Journal No. 20/2026" },
+    { "icon": "cap", "value": "9.68", "label": "CGPA / 10", "sub": "B.Tech CSE, SRM University" },
+    { "icon": "people", "value": "200+", "label": "MEMBERS LED", "sub": "Co-founder & President, Synergy Club" }
+  ],
+  "about_code": [
+    [["kw", "class "], ["cls", "Praneet"], ["p", "("], ["cls", "Engineer"], ["p", "):"]],
+    [["cm", "    \"\"\"Builds AI systems end-to-end: model -> API -> product.\"\"\""]],
+    [],
+    [["p", "    location  = "], ["str", "\"Chennai, India\""]],
+    [["p", "    education = "], ["str", "\"B.Tech CSE @ SRM University\""], ["p", "   "], ["cm", "# CGPA 9.68"]],
+    [["p", "    currently = "], ["str", "\"AI/ML Intern @ Flexidigit Technologies\""]],
+    [
+      ["p", "    building  = ["],
+      ["str", "\"multi-agent systems\""],
+      ["p", ", "],
+      ["str", "\"LLM pipelines\""],
+      ["p", ", "],
+      ["str", "\"ML products\""],
+      ["p", "]"]
+    ],
+    [
+      ["p", "    toolbox   = ["],
+      ["str", "\"Python\""],
+      ["p", ", "],
+      ["str", "\"TypeScript\""],
+      ["p", ", "],
+      ["str", "\"CrewAI\""],
+      ["p", ", "],
+      ["str", "\"FastAPI\""],
+      ["p", ", "],
+      ["str", "\"Next.js\""],
+      ["p", "]"]
+    ],
+    [
+      ["p", "    exploring = ["],
+      ["str", "\"LLMs\""],
+      ["p", ", "],
+      ["str", "\"Information Retrieval\""],
+      ["p", ", "],
+      ["str", "\"Time-Series\""],
+      ["p", "]"]
+    ],
+    [],
+    [["kw", "    def "], ["fn", "mission"], ["p", "(self):"]],
+    [["kw", "        return "], ["str", "\"Turn research-grade ML into products people actually use.\""]]
+  ],
+  "experience": [
+    {
+      "role": "AI/ML Intern",
+      "org": "Flexidigit Technologies",
+      "period": "MAY 2026 – PRESENT",
+      "current": true,
+      "points": [
+        "Architected a reusable multi-agent orchestration engine with CrewAI and n8n that automates an end-to-end production workflow.",
+        "Built RAP, a recruitment automation platform where 9 AI agents read job posts, find candidates and rank them into a shortlist.",
+        "Automated the recruiter pipeline from shortlist to interview to placement, verified by 111 automated tests."
+      ],
+      "tags": ["CrewAI", "n8n", "LLM agents", "Python"]
+    },
+    {
+      "role": "R&D Intern",
+      "org": "National Institute of Technology, Trichy",
+      "period": "JUN 2025",
+      "current": false,
+      "points": [
+        "Benchmarked energy-based anomaly detection against statistical thresholding baselines on time-series sleep data, across accuracy and false-positive rate.",
+        "Profiled and optimized the NumPy inference pipeline, cutting latency by 30%, validated on held-out subject data."
+      ],
+      "tags": ["Anomaly detection", "Time-series", "NumPy"]
+    }
+  ],
+  "education": {
+    "degree": "B.Tech, Computer Science & Engineering",
+    "school": "SRM University, Chennai",
+    "period": "AUG 2023 – MAY 2027 (EXPECTED)",
+    "score": "9.68",
+    "score_max": "10",
+    "score_label": "CGPA"
+  },
+  "community": [
+    {
+      "icon": "people",
+      "role": "Co-founder & President",
+      "org": "Synergy Club, SRM University",
+      "period": "AUG 2025 – PRESENT",
+      "note": "Grew a student tech club to 200+ members; run hackathons, coding workshops and hands-on AI/ML sessions."
+    },
+    {
+      "icon": "heart",
+      "role": "Volunteer",
+      "org": "Spastics Society, Trichy",
+      "period": "JUN – JUL 2025",
+      "note": "Taught basic computer literacy to differently-abled children and supported inclusion campaigns."
+    }
+  ],
+  "achievements": [
+    {
+      "icon": "trophy",
+      "badge": "1ST",
+      "title": "HackNova — Winner",
+      "org": "SRM Easwari College",
+      "date": "MAR 2026",
+      "text": "Built an ML-driven organ compatibility matching system that pairs donors and recipients in real time for hospitals."
+    },
+    {
+      "icon": "medal",
+      "badge": "2ND",
+      "title": "Nexathon — Runner-up",
+      "org": "Vel Tech Multi Tech College",
+      "date": "FEB 2026",
+      "text": "A student finance planner that predicts savings, budgets and goal timelines with interactive projections."
+    },
+    {
+      "icon": "scroll",
+      "badge": "PAT",
+      "title": "Patent Published",
+      "org": "Indian Patent Journal No. 20/2026",
+      "date": "MAY 2026",
+      "text": "Solar Panel Efficiency Optimization System for rural use; engineered and benchmarked 7 ML models for performance prediction."
+    },
+    {
+      "icon": "abacus",
+      "badge": "GM",
+      "title": "Abacus Grandmaster",
+      "org": "SIP Abacus · Certified",
+      "date": "2021",
+      "text": "Certified Grandmaster in abacus mental arithmetic."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Demand Forecasting",
+      "subtitle": "LSTM + ARIMA Inventory Intelligence",
+      "period": "MAR–MAY 2026",
+      "description": "Predicts product demand to prevent over- and under-stocking, with a real-time dashboard to track and plan inventory.",
+      "metrics": [["94%", "accuracy"], ["1,000+", "products"], ["2", "model families"]],
+      "viz": "forecast",
+      "repo": "",
+      "status": "REPO SOON"
+    },
+    {
+      "title": "SANGAM",
+      "subtitle": "AI Material Code Matching",
+      "period": "AUG–SEP 2026",
+      "description": "Flags duplicate part codes across government companies to stop double purchasing, while each company keeps its own codes.",
+      "metrics": [["97.9%", "F1 score"], ["17 ms", "response"], ["1,800", "test records"]],
+      "viz": "match",
+      "repo": "",
+      "status": "REPO SOON"
+    },
+    {
+      "title": "RAP",
+      "subtitle": "Recruitment Automation Platform",
+      "period": "FLEXIDIGIT · 2026",
+      "description": "Nine AI agents read job posts, find candidates and rank a shortlist, then automate the path from shortlist to interview to placement.",
+      "metrics": [["9", "AI agents"], ["111", "automated tests"], ["E2E", "recruiter flow"]],
+      "viz": "agents",
+      "repo": "",
+      "status": "COMPANY BUILD",
+      "no_link": true
+    },
+    {
+      "title": "Peer Organ",
+      "subtitle": "Organ Matching & Donation Network",
+      "period": "JAN–MAR 2026",
+      "description": "Ranks donor-patient matches by blood type, tissue fit and distance, with ID-verified sign-up, legal digital consent and a hospital dashboard.",
+      "metrics": [["3", "match signals"], ["e-Consent", "legal & digital"], ["Live", "hospital console"]],
+      "viz": "pulse",
+      "repo": "",
+      "status": "REPO SOON"
+    }
+  ],
+  "more_projects": [
+    {
+      "title": "EduNexus",
+      "subtitle": "Smart School Management PWA",
+      "period": "EDTECH · FULL-STACK",
+      "description": "School platform for students, parents, teachers and admins: attendance, fees, chat and live bus tracking, in Tamil + English.",
+      "tags": ["Next.js", "Tailwind", "SQLite", "JWT", "WebSockets"],
+      "viz": "bus",
+      "repo": "https://github.com/Praneet-R-S/Edunexus",
+      "status": "REPO SOON"
+    },
+    {
+      "title": "Vetri Tamil Nadu",
+      "subtitle": "Citizen Services Super App",
+      "period": "GOV-TECH · FULL-STACK",
+      "description": "Citizen services platform: apply and track live, get matched to welfare schemes in one tap, with deadline-driven officer worklists.",
+      "tags": ["React", "NestJS", "PostgreSQL", "Prisma", "Docker"],
+      "viz": "flow",
+      "repo": "https://github.com/Praneet-R-S/VetriTamilNadu_SuperApp",
+      "status": "REPO SOON"
+    },
+    {
+      "title": "Binly",
+      "subtitle": "AI Waste Segregation · Citizen App",
+      "period": "MOBILE · REACT NATIVE",
+      "description": "A React Native app where citizens scan their waste, earn credits for segregating it, and redeem them through UPI.",
+      "tags": ["React Native", "TypeScript", "AI Scan", "UPI"],
+      "viz": "scan",
+      "repo": "https://github.com/Praneet-R-S/binly-citizen-app",
+      "status": "REPO SOON"
+    },
+    {
+      "title": "Ares Rover",
+      "subtitle": "3D Terrain Navigation Simulator",
+      "period": "MAR–APR 2026",
+      "description": "Unity3D rover simulation with real physics, finding optimal routes with A*, BFS and DFS across 50+ obstacle variants.",
+      "tags": ["Unity3D", "Blender", "A*", "BFS / DFS"],
+      "viz": "path",
+      "repo": "",
+      "status": "UNITY BUILD",
+      "no_link": true
+    }
+  ],
+  "stack": [
+    {
+      "group": "Languages",
+      "items": [
+        ["python", "Python"],
+        ["cplusplus", "C++"],
+        ["c", "C"],
+        ["typescript", "TypeScript"],
+        ["javascript", "JavaScript"],
+        ["@db", "SQL"]
+      ]
+    },
+    {
+      "group": "AI / ML",
+      "items": [
+        ["@brain", "LLMs"],
+        ["crewai", "CrewAI"],
+        ["n8n", "n8n"],
+        ["scikitlearn", "scikit-learn"],
+        ["numpy", "NumPy"],
+        ["pandas", "pandas"],
+        ["@chart", "Time-Series"]
+      ]
+    },
+    {
+      "group": "Frontend & Mobile",
+      "items": [["react", "React"], ["nextdotjs", "Next.js"], ["react", "React Native"], ["tailwindcss", "Tailwind"]]
+    },
+    {
+      "group": "Backend & Data",
+      "items": [
+        ["fastapi", "FastAPI"],
+        ["nestjs", "NestJS"],
+        ["django", "Django"],
+        ["postgresql", "PostgreSQL"],
+        ["prisma", "Prisma"],
+        ["redis", "Redis"]
+      ]
+    },
+    {
+      "group": "Cloud & Tools",
+      "items": [
+        ["docker", "Docker"],
+        ["@cloud", "Azure"],
+        ["git", "Git"],
+        ["github", "GitHub"],
+        ["unity", "Unity"],
+        ["blender", "Blender"]
+      ]
+    }
+  ]
+}

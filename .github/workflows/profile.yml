@@ -1,0 +1,48 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "17 0 * * *"        # every day at 05:47 IST
+  workflow_dispatch:             # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - profile.config.json
+      - scripts/**
+      - assets/fonts/**
+      - .github/workflows/profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render SVGs from live GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}   # optional, see SETUP.md
+        run: python scripts/render.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets README.md
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh profile $(date -u +%F)"
+            git push
+          fi
